@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32485DD24DA612800E3E976 /* train.obj in Resources */ = {isa = PBXBuildFile; fileRef = F32485DC24DA612800E3E976 /* train.obj */; };
+		F374CCFB24D9102800A55497 /* Chapter2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F374CCFA24D9102800A55497 /* Chapter2ViewController.m */; };
 		F38C735824D5C761003D6FEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C735724D5C761003D6FEA /* AppDelegate.m */; };
 		F38C735B24D5C761003D6FEA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F38C735A24D5C761003D6FEA /* SceneDelegate.m */; };
 		F38C736324D5C763003D6FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38C736224D5C763003D6FEA /* Assets.xcassets */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F32485DC24DA612800E3E976 /* train.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = train.obj; sourceTree = "<group>"; };
+		F374CCF924D9102800A55497 /* Chapter2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter2ViewController.h; sourceTree = "<group>"; };
+		F374CCFA24D9102800A55497 /* Chapter2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter2ViewController.m; sourceTree = "<group>"; };
 		F38C735324D5C761003D6FEA /* Practice_Metal-ObjCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice_Metal-ObjCApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F38C735624D5C761003D6FEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F38C735724D5C761003D6FEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,6 +46,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F32485DB24DA610300E3E976 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F32485DC24DA612800E3E976 /* train.obj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F374CCF824D9100F00A55497 /* Chapter 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F374CCF924D9102800A55497 /* Chapter2ViewController.h */,
+				F374CCFA24D9102800A55497 /* Chapter2ViewController.m */,
+			);
+			path = "Chapter 2";
+			sourceTree = "<group>";
+		};
 		F38C734A24D5C761003D6FEA = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +82,7 @@
 		F38C735524D5C761003D6FEA /* Practice_Metal-ObjCApp */ = {
 			isa = PBXGroup;
 			children = (
+				F32485DB24DA610300E3E976 /* Resources */,
 				F38C737924D5CA68003D6FEA /* Chapters */,
 				F38C736F24D5C7AD003D6FEA /* Main */,
 				F38C735624D5C761003D6FEA /* AppDelegate.h */,
@@ -85,6 +108,7 @@
 		F38C737924D5CA68003D6FEA /* Chapters */ = {
 			isa = PBXGroup;
 			children = (
+				F374CCF824D9100F00A55497 /* Chapter 2 */,
 				F38C737D24D5D3E0003D6FEA /* Chapter 1 */,
 			);
 			path = Chapters;
@@ -155,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32485DD24DA612800E3E976 /* train.obj in Resources */,
 				F38C736324D5C763003D6FEA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +194,7 @@
 				F38C737824D5C94C003D6FEA /* MainTableViewController.m in Sources */,
 				F38C737C24D5CA7F003D6FEA /* Chapter1ViewController.m in Sources */,
 				F38C735824D5C761003D6FEA /* AppDelegate.m in Sources */,
+				F374CCFB24D9102800A55497 /* Chapter2ViewController.m in Sources */,
 				F38C736924D5C763003D6FEA /* main.m in Sources */,
 				F38C735B24D5C761003D6FEA /* SceneDelegate.m in Sources */,
 			);
