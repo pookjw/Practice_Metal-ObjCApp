@@ -8,6 +8,7 @@
 #import "MainTableViewController.h"
 #import "Chapter1ViewController.h"
 #import "Chapter2ViewController.h"
+#import "Chapter3ViewController.h"
 
 @interface MainTableViewController ()
 @property NSDictionary *listOfChapter;
@@ -35,7 +36,8 @@
 - (void)setChapters {
     self.listOfChapter = @{
         @"Chapter 1": Chapter1ViewController.self,
-        @"Chapter 2": Chapter2ViewController.self
+        @"Chapter 2": Chapter2ViewController.self,
+        @"Chapter 3": Chapter3ViewController.self
     };
 }
 
